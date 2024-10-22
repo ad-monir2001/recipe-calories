@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from './components/Header'
 
 function App() {
   
 
   return (
     <>
-      <h2>Hello tailwind</h2>
+      <Header></Header>
       
     </>
   )
