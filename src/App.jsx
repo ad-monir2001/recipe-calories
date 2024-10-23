@@ -9,10 +9,17 @@ import Sidebar from './components/Sidebar';
 function App() {
   const [recipeQueue, setRecipeQueue] = useState([]);
   const [preparedRecipe, setPreparedRecipe] = useState([]);
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
+
+  const calculateTimeAndCalories = (time, calories) => {
+    setTotalTime(totalTime + time);
+    setTotalCalories(totalCalories + calories);
+  };
 
   const handleWantToCook = (recipe) => {
     if (recipeQueue.find((res) => res === recipe)) {
-      alert('This item already on the queue');
+      alert('This item already on the queue.');
     } else {
       setRecipeQueue([...recipeQueue, recipe]);
     }
@@ -41,6 +48,9 @@ function App() {
           recipeQueue={recipeQueue}
           handleRemove={handleRemove}
           preparedRecipe={preparedRecipe}
+          calculateTimeAndCalories={calculateTimeAndCalories}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
         ></Sidebar>
       </section>
     </>

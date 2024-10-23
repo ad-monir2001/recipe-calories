@@ -1,5 +1,12 @@
 /* eslint-disable react/prop-types */
-const Sidebar = ({ recipeQueue, handleRemove, preparedRecipe }) => {
+const Sidebar = ({
+  recipeQueue,
+  handleRemove,
+  preparedRecipe,
+  calculateTimeAndCalories,
+  totalTime,
+  totalCalories,
+}) => {
   return (
     <div className="w-1/3 border rounded-lg px-2 py-4">
       <div>
@@ -30,7 +37,13 @@ const Sidebar = ({ recipeQueue, handleRemove, preparedRecipe }) => {
                   <td>{recipeQ.calories}</td>
                   <td>
                     <button
-                      onClick={() => handleRemove(recipeQ.recipe_id)}
+                      onClick={() => {
+                        handleRemove(recipeQ.recipe_id);
+                        calculateTimeAndCalories(
+                          recipeQ.preparing_time,
+                          recipeQ.calories
+                        );
+                      }}
                       className="font-medium text-base bg-[#0BE58A] py-2 px-4 rounded-full
                   my-3"
                     >
@@ -69,6 +82,12 @@ const Sidebar = ({ recipeQueue, handleRemove, preparedRecipe }) => {
                   <td>{prepare.calories}</td>
                 </tr>
               ))}
+              <tr className="border-none">
+                <th></th>
+                <td></td>
+                <td className="font-medium text-base">Total Tike = {totalTime}</td>
+                <td className="font-medium text-base">Total Calories = {totalCalories}</td>
+              </tr>
             </tbody>
           </table>
         </div>
