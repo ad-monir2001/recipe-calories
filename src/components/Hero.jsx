@@ -24,8 +24,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// #150b2be6
-// #150b2b00
-
-// bg-[url('../public/images/hero.jpg')] bg-[#150b2be6] bg-blend-lighten
