@@ -85,7 +85,7 @@ const Sidebar = ({
               <tr className="border-none">
                 <th></th>
                 <td></td>
-                <td className="font-medium text-base">Total Tike = {totalTime}</td>
+                <td className="font-medium text-base">Total Time = {totalTime}</td>
                 <td className="font-medium text-base">Total Calories = {totalCalories}</td>
               </tr>
             </tbody>
