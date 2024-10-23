@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="container mx-auto text-center py-16 px-3 bg-[url('../public/images/hero.jpg')] bg-cover rounded-lg h-[70vh] flex justify-center items-center mt-8">
+    <div className="container mx-auto text-center py-16 px-3  bg-cover rounded-lg h-[80vh] flex justify-center items-center mt-8  bg-[linear-gradient(to_left_bottom,#150b2be6,#150b2b00),url('../public/images/hero.jpg')]">
       <div className="max-w-[800px] mx-auto space-y-6">
         <h1 className="text-5xl font-bold text-white">
           Discover an exceptional cooking class tailored for you!
@@ -27,3 +27,5 @@ export default Hero;
 
 // #150b2be6
 // #150b2b00
+
+// bg-[url('../public/images/hero.jpg')] bg-[#150b2be6] bg-blend-lighten
