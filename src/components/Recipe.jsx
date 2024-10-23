@@ -2,7 +2,7 @@
 import { CiClock2 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handleWantToCook}) => {
     const {recipe_name,image,short_description,preparing_time,calories,ingredients} = recipe
     return (
         <div className="border rounded-lg p-5 space-y-4">
@@ -22,7 +22,7 @@ const Recipe = ({recipe}) => {
             <p className="flex items-center gap-2 font-normal text-base"><CiClock2 /> {preparing_time} minutes</p>
             <p className="flex items-center gap-2 font-normal text-base"><GoFlame /> {calories} calories</p>
             </div>
-            <button className="font-medium text-lg bg-[#0BE58A] py-3 px-6 rounded-full">Want to Cook</button>
+            <button onClick={() => handleWantToCook(recipe)} className="font-medium text-lg bg-[#0BE58A] py-3 px-6 rounded-full">Want to Cook</button>
         </div>
     );
 };
