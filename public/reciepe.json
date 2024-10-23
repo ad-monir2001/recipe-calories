@@ -1,0 +1,104 @@
+{
+    "recipes": [
+      {
+        "recipe_id": "1",
+        "recipe_name": "Spicy Grilled Chicken",
+        "image": "https://images.unsplash.com/photo-1628294896516-344152572ee8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "short_description": "A smoky and spicy grilled chicken dish perfect for summer barbecues.",
+        "ingredients": [
+          "550 g chicken",
+          "120 ml soy sauce",
+          "2 tbsp olive oil",
+          "1 tbsp smoked paprika",
+          "1 tsp garlic powder",
+          "1 tsp black pepper",
+          "1 tsp salt"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+      },
+      {
+        "recipe_id": "2",
+        "recipe_name": "Mushroom Basil Stir Fry",
+        "image": "https://img.freepik.com/free-photo/fried-vegetable-salat-mushrooms-red-pepper-cherry-tomato-carrot-yellow-pepper-black-plate-white-wooden-surface_176474-163.jpg?t=st=1729645044~exp=1729648644~hmac=1249a571b753fb574d03c257f577a1b07b962a6a6f59e132a1002df507d0d4a6&w=1060",
+        "short_description": "A quick and healthy stir fry with mushrooms and fresh basil leaves.",
+        "ingredients": [
+          "400 g mushroom",
+          "200 g basil leaf",
+          "1 onion",
+          "2 cloves garlic",
+          "2 tbsp soy sauce",
+          "1 tbsp olive oil"
+        ],
+        "preparing_time": "20 min",
+        "calories": "180 calories"
+      },
+      {
+        "recipe_id": "3",
+        "recipe_name": "Classic Margherita Pizza",
+        "image": "https://img.freepik.com/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-tomatoes-dark-surface-pizza-italy-meal-dough-food_140725-101777.jpg?t=st=1729645116~exp=1729648716~hmac=d197d0ba21446038195460c63612a61e825d14a849cae0e83c04eca0bef862e3&w=1060",
+        "short_description": "A simple and authentic Italian pizza topped with mozzarella and fresh basil.",
+        "ingredients": [
+          "250 g pizza dough",
+          "150 g mozzarella cheese",
+          "120 g tomato sauce",
+          "20 g fresh basil",
+          "1 tbsp olive oil",
+          "1 tsp salt"
+        ],
+        "preparing_time": "25 min",
+        "calories": "300 calories"
+      },
+      {
+        "recipe_id": "4",
+        "recipe_name": "Avocado Toast",
+        "image": "https://img.freepik.com/free-photo/avocado-open-toast-with-avocado-slices-lemon-flax-seeds-sesame-seeds-black-bread-slices-top-view_2831-797.jpg?t=st=1729645435~exp=1729649035~hmac=05e82ac0e8a6d4baf8a63246ddc232c38f708c3bfb1c513dc3e271620482923c&w=1060",
+        "short_description": "A nutritious and delicious avocado toast topped with sesame seeds.",
+        "ingredients": [
+          "1 avocado",
+          "2 slices whole grain bread",
+          "1 tsp sesame seeds",
+          "1 pinch sea salt",
+          "1 tsp lemon juice"
+        ],
+        "preparing_time": "10 min",
+        "calories": "240 calories"
+      },
+      {
+        "recipe_id": "5",
+        "recipe_name": "Beef Tacos",
+        "image": "https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14194.jpg?t=st=1729645476~exp=1729649076~hmac=57776b08df57806ae115d45c8473ae2e6d3a34323935805751254110f3e1ee9e&w=1060",
+        "short_description": "Mexican-style beef tacos with flavorful spices and fresh toppings.",
+        "ingredients": [
+          "300 g ground beef",
+          "6 taco shells",
+          "100 g cheddar cheese",
+          "1 tomato",
+          "50 g lettuce",
+          "1 tsp chili powder",
+          "1 tsp cumin",
+          "1 tsp garlic powder"
+        ],
+        "preparing_time": "20 min",
+        "calories": "400 calories"
+      },
+      {
+        "recipe_id": "6",
+        "recipe_name": "Chocolate Brownies",
+        "image": "https://img.freepik.com/free-photo/high-angle-cooling-rack-with-brownies-kettle_23-2148569710.jpg?t=st=1729645521~exp=1729649121~hmac=745e9ffe6d926b27c0a253d15d5be0276bc1798b7c77263313ed0d1760c4f26a&w=740",
+        "short_description": "Rich and fudgy chocolate brownies with a crispy top.",
+        "ingredients": [
+          "200 g dark chocolate",
+          "150 g butter",
+          "200 g sugar",
+          "3 eggs",
+          "100 g flour",
+          "1 tsp vanilla extract",
+          "1 pinch salt"
+        ],
+        "preparing_time": "35 min",
+        "calories": "450 calories"
+      }
+    ]
+  }
+  
